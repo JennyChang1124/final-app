@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/leaff" />
+
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="280dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="復健APP"
+            android:textColor="#408080"
+            android:textSize="70dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/lleaf" />
+
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="登入"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#408080"
+        android:background="@drawable/btn_background"
+        />
+
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="註冊"
+        android:textSize="30dp"
+
+        android:textStyle="bold"
+        android:textColor="#408080"
+        android:background="@drawable/btn_background" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="150dp"
+        android:background="@drawable/talk"
+        android:layout_marginTop="10dp"
+       android:layout_marginStart="270dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

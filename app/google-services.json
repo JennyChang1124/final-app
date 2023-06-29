@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "564017319407",
+    "firebase_url": "https://stroke-2015a-default-rtdb.firebaseio.com",
+    "project_id": "stroke-2015a",
+    "storage_bucket": "stroke-2015a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564017319407:android:93c4972be25e765ec57a1a",
+        "android_client_info": {
+          "package_name": "com.example.strokepatientsvoicerecoveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564017319407-qsb1haci1tm0fe3m86qmes6f7fm2jihc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbRDsvScu13oivJwFmmNT7KHYDQVdZFvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564017319407-qsb1haci1tm0fe3m86qmes6f7fm2jihc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <Button
+        android:id="@+id/btn_chooseType"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:background="@drawable/btn_background"
+        android:text="領域選擇"
+        android:textSize="30dp"
+        android:layout_marginTop="320dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#408080"
+      />
+
+    <Button
+        android:id="@+id/btn_itemPracrice"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:background="@drawable/btn_background"
+        android:text="加強練習"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#408080"
+        android:textStyle="bold"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:background="@drawable/people1"
+           android:layout_marginStart="200dp"
+            android:layout_marginTop="600dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

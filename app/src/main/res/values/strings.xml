@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Strokepatientsvoicerecoveryapp</string>
+
+    <string-array name="option">
+        <item>請選擇症狀程度名稱</item>
+        <item>命名型失語症</item>
+        <item>傳導型失語症</item>
+        <item>跨皮質感覺型失語症</item>
+        <item>威尼克型失語症</item>
+        <item>跨皮質運動型失語症</item>
+        <item>布洛卡失語症</item>
+        <item>跨皮質混合型失語症</item>
+        <item>全失型失語症</item>
+    </string-array>
+
+    <string-array name="option1">
+        <item>請選擇難度</item>
+        <item>簡單</item>
+        <item>中等</item>
+        <item>困難</item>
+    </string-array>
+
+    <string-array name="suggestions">
+        <item></item>
+        <item>選擇 命名型失語症 的話，建議可以選擇 簡單 難度</item>
+        <item>選擇 傳導型失語症 的話，建議可以選擇 簡單 難度</item>
+        <item>選擇 跨皮質感覺型失語症 的話，建議可以選擇 簡單 難度</item>
+        <item>選擇 威尼克型失語症 的話，建議可以選擇 簡單 難度</item>
+        <item>選擇 跨皮質運動型失語症 的話，建議可以選擇 簡單 難度</item>
+        <item>選擇 布洛卡失語症 的話，建議可以選擇 簡單 難度</item>
+        <item>選擇 跨皮質混合型失語症 的話，建議可以選擇 簡單 難度</item>
+        <item>選擇 全失型失語症 的話，建議可以選擇 簡單 難度</item>
+    </string-array>
+
+    <string name="place_holder_time">00:00</string>
+    <string name="reset">重新</string>
+    <string name="start">開始</string>
+    <string name="stop">停止</string>
+    <string name="sure">確定</string>
+
+
+</resources>

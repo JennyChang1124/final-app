@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:text="歷史紀錄"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="2" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#000"/>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/question_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="50dp"
+                    android:text="題目編號"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/number_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="100dp"
+                    android:textColor="#000"
+                    android:text="#0123"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/result_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="結果編號"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/number1_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="100dp"
+                    android:textColor="#000"
+                    android:text="#0123"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="日期時間"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/datenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="70dp"
+                    android:textColor="#000"
+                    android:text="2023-05-26"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/pracrice_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="練習時間"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="100dp"
+                    android:textColor="#000"
+                    android:text="30min"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/question_degree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="題目難度"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/degree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="115dp"
+                    android:textColor="#000"
+                    android:text="簡單"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/action"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="動作"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_see"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="100dp"
+                    android:background="#00BB00"
+                    android:textColor="#000"
+                    android:text="查看"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="2" >
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/question1_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="50dp"
+                    android:text="題目編號"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/number2_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="100dp"
+                    android:textColor="#000"
+                    android:text="#0123"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/result1_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="結果編號"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/number3_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="100dp"
+                    android:textColor="#000"
+                    android:text="#0123"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/date1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="日期時間"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/datenumber1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="70dp"
+                    android:textColor="#000"
+                    android:text="2023-05-26"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/pracrice_time1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="練習時間"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/time1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="100dp"
+                    android:textColor="#000"
+                    android:text="30min"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/question_degree1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="題目難度"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/degree1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="115dp"
+                    android:textColor="#000"
+                    android:text="簡單"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/action1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="50dp"
+                    android:text="動作"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_see1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="100dp"
+                    android:background="#00BB00"
+                    android:textColor="#000"
+                    android:text="查看"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+        </TableLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#000"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
